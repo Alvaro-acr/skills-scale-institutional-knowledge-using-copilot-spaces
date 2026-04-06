@@ -1,3 +1,5 @@
+> Related to: #6
+
 # OctoAcme — Execution & Tracking
 
 ## Purpose
@@ -23,6 +25,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
+**QA Lead:** The QA Lead defines and executes the test strategy for the project, ensuring acceptance criteria are testable and validated. They coordinate automated and manual testing with Developers, report test status to PM and PdM, and work with the Release Manager to confirm release readiness.
+
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
@@ -38,3 +42,4 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Roles and handoff checklist completed

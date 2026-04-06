@@ -1,5 +1,7 @@
 # OctoAcme Project Management Overview
 
+> Related to: #6
+
 ## Purpose
 Provide a concise, shareable introduction to how OctoAcme runs projects so new teammates can quickly understand our approach, roles, and key artifacts.
 
@@ -19,6 +21,13 @@ Applies to all cross-functional projects that deliver product features, services
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+- **QA Lead**: owns the overall test strategy, coordinates QA activities, and signs off on release readiness.
+- **UX/UI Designer**: ensures usable, accessible designs and provides implementation-ready specifications to developers.
+- **Technical Writer**: creates and maintains documentation for features, processes, and releases.
+- **Release Manager**: coordinates deployments, manages go/no-go decisions, and communicates release status.
+- **Support Lead**: escalates customer issues and feeds support insights back to the product team.
+
+> Expanding Core Roles to include QA Lead, UX/UI Designer, Technical Writer, Release Manager, and Support Lead improves clarity of ownership, reduces handoff gaps, and ensures that accountability is explicit at every stage of the project lifecycle. See [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md) for full role definitions.
 
 ## Key Artifacts
 - Project Charter / One-pager

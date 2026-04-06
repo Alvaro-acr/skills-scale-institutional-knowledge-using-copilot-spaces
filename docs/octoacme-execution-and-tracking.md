@@ -1,5 +1,7 @@
 # OctoAcme — Execution & Tracking
 
+> Related to: #6
+
 ## Purpose
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
@@ -23,6 +25,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
+### QA Lead Responsibilities in Execution
+The QA Lead takes ownership of the overall test strategy during execution and coordinates directly with Developers and the Release Manager:
+- **With Developers**: The QA Lead collaborates during development to review acceptance criteria, flag testability concerns, and triage defects found in testing. Developers are responsible for resolving defects and notifying the QA Lead when fixes are ready for re-test.
+- **With Release Manager**: The QA Lead provides a formal release readiness sign-off before the Release Manager proceeds with deployment. If outstanding defects or test gaps exist, the QA Lead and Release Manager align with the PM on a go/no-go decision. See [octoacme-role-interactions-and-checklists.md](./octoacme-role-interactions-and-checklists.md) for the QA Lead handoff checklist.
+
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
@@ -38,3 +45,4 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Roles and handoff checklist completed (see [octoacme-role-interactions-and-checklists.md](./octoacme-role-interactions-and-checklists.md))

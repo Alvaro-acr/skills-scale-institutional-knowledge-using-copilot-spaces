@@ -77,8 +77,6 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
----
-
 ## QA Lead
 
 ### Role Summary

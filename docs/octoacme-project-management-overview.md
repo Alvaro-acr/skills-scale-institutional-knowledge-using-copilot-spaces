@@ -1,5 +1,7 @@
 # OctoAcme Project Management Overview
 
+<!-- Related to: #6 -->
+
 ## Purpose
 Provide a concise, shareable introduction to how OctoAcme runs projects so new teammates can quickly understand our approach, roles, and key artifacts.
 
@@ -14,11 +16,18 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM)**: coordinates delivery, schedules, risk, and communications.
+- **Product Manager (PdM)**: defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: implement features, collaborate on design and testability.
+- **QA/Testing**: validate quality and acceptance criteria.
+- **Stakeholders**: provide inputs and approvals.
+- **QA Lead**: owns the test strategy, coordinates QA efforts, and provides release readiness sign-off.
+- **UX/UI Designer**: ensures intuitive, accessible designs and collaborates with PdM and Developers on user stories.
+- **Technical Writer**: produces and maintains documentation for features, processes, and APIs.
+- **Release Manager**: coordinates release windows, deployment activities, and go/no-go decisions.
+- **Support Lead**: manages support escalations, surfaces customer feedback, and liaises with delivery teams.
+
+> **Note:** Expanding Core Roles to include QA Lead, UX/UI Designer, Technical Writer, Release Manager, and Support Lead improves clarity of ownership during handoffs, reduces ambiguity at key transitions (development → QA → release → support), and ensures accountability is distributed across the full delivery lifecycle. See [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) for full role definitions.
 
 ## Key Artifacts
 - Project Charter / One-pager

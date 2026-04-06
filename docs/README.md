@@ -1,21 +1,11 @@
-# OctoAcme Project Management Docs
+The OctoAcme project management approach centers on a lightweight, repeatable lifecycle documented in the repository's docs. Work begins with a Project One-pager to capture the problem, measurable success metrics, stakeholders, and a high-level timeline; this drives the initiation decision gate. Approved initiatives move into planning where the team runs a kickoff, builds a prioritized backlog (with acceptance criteria and estimates), defines a Definition of Done (DoD), identifies dependencies and risks, and creates a release/milestone plan. Day-to-day execution is tracked on a project board with standard columns (Backlog, Ready, In Progress, In Review, QA, Done), and the docs include checklists to ensure the repo and CI are configured before steady delivery.
 
-## Project Management Process Summary
+Roles and responsibilities are clearly defined so ownership is explicit: Product Managers own outcomes and prioritization, Project Managers coordinate schedules, risks and communications, Developers implement and test, and QA validates acceptance. These personas are used to structure planning, estimation, and retrospective activities; action items from retrospectives are converted into backlog issues with owners and due dates. The PR workflow enforces small, focused changes (targeting <=400 lines), requires issue links and acceptance criteria in PRs, automated tests and linting to pass in CI, and at least one approval before merging, ensuring that reviewers and owners are aligned on scope and quality.
 
-OctoAcme uses a structured, iterative approach for cross-functional project management:
+Communication is deliberate and cadence-driven: short daily standups for blockers and progress, weekly delivery syncs to show progress and surface risks, PM+PdM weekly alignment, and monthly stakeholder updates or milestone-based reports. The docs provide templates for weekly status updates and incident communications, a clear escalation path (team → PM → Product Lead → Sponsor), and recommend a single source of truth (project README or release document) for status. Release and deployment procedures require pre-release checks (passing CI/security scans, release notes, rollback plans), staging smoke tests, automated production pipelines when possible, and post-deploy verification plus stakeholder announcements.
 
-- Emphasis on customer value, iterative delivery, and measurable outcomes
-- Key roles: Product Managers, Project Managers, Developers, QA, and Stakeholders
-- Lifecycle: Initiation, Planning, Execution, Release, and Retrospective/Continuous Improvement
-- Clear risk management, communication protocols, and defined artifacts like charters, roadmaps, and risk registers
+Quality assurance is layered across the lifecycle: developers write unit tests and integration tests, critical flows have end-to-end smoke coverage, CI runs automated test suites and security scans, and manual QA is used for acceptance when required. The release guide prescribes smoke tests in staging, rollback/incident playbooks for failing deployments, and post-incident blameless retrospectives to feed continuous improvement. Reporting and metrics (velocity, burndown, and dashboards tracking errors/usage) are used to inform product decisions and to measure the impact of retrospective action items, closing the loop between delivery, quality, and learning.
 
-## Process Documents in This Repo
+---
 
-- [Project Management Overview](./octoacme-project-management-overview.md)
-- [Project Initiation Guide](./octoacme-project-initiation.md)
-- [Project Planning](./octoacme-project-planning.md)
-- [Execution & Tracking](./octoacme-execution-and-tracking.md)
-- [Risk Management & Communication](./octoacme-risks-and-communication.md)
-- [Release & Deployment Guide](./octoacme-release-and-deployment.md)
-- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
-- [Roles & Personas](./octoacme-roles-and-personas.md)
+For detailed process documents, see the other files in this [docs/](.) folder (initiation, planning, execution, release, retrospectives, roles, and more). Issue templates for contributing or proposing process changes are located in [.github/ISSUE_TEMPLATE/](../.github/ISSUE_TEMPLATE/).
